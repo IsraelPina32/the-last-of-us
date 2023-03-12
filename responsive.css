@@ -10,28 +10,30 @@
     }
 
 }
-
 @media (max-width: 425px) {
-    .informacoes .Logo{
+     .informacoes .Logo{
         max-width: 300px;
-    }
-    .informacoes .descricao{
-        width: 100%;
-    }
-    .menu-lateral{
+     }
+
+     .informacoes .descricao{
+        width:70%;
+      }
+
+     .menu-lateral {
         position: static;
         min-height: auto;
         width: 100%;
         margin-top: 50px;
-    }
-    .menu-lateral ul{
-        flex-direction: row;
-    }
-    .conteudo{
+      }
+     .menu-lateral ul {
+          flex-direction: column;
+      }
+     .conteudo {
         min-height: 70vh;
         gap: 50px;
-    }
-    body{
+      }
+
+     body{
         padding: 40px;
-    }
+      }
 }
